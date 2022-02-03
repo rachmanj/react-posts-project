@@ -8,7 +8,7 @@ const NewPost = ({
   setPostBody,
 }) => {
   return (
-    <div className="NewPost">
+    <main className="NewPost">
       <h2>New Post</h2>
       <form className="newPostForm" onSubmit={handleSubmit}>
         <label htmlFor="postTitle">Title</label>
@@ -20,7 +20,7 @@ const NewPost = ({
           onChange={e => setPostTitle(e.target.value)}
         />
         <label htmlFor="postBody">Post:</label>
-        <input
+        <textarea
           type="text"
           id="postBody"
           required
@@ -29,7 +29,7 @@ const NewPost = ({
         />
         <button type="submit">Submit</button>
       </form>
-    </div>
+    </main>
   );
 };
 
