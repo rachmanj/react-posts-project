@@ -23,6 +23,12 @@
       "title": "Testing a 4th post",
       "datetime": "February 06, 2022 06:10:38 AM",
       "body": "Some more testing words Hallo ninja"
+    },
+    {
+      "id": 6,
+      "title": "Test post",
+      "datetime": "February 09, 2022 02:19:29 PM",
+      "body": "Test post123"
     }
   ]
 }
